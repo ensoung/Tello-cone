@@ -26,7 +26,7 @@ rc_default = 15
 
 def TurningSign(frame, direction):  # direction : True-Left, False-right function draws the direction the drone will turn
     YEL = (0, 255, 255)
-    radius = 36 #frame.shape[1]>>5
+    radius = 36 #frame.shape[1]>>5                    
     axes = (radius, radius)  # The x,y radius must be the same if is a circle otherwise it is eclipse
     angle = 0  #results in a lot of spinning
     

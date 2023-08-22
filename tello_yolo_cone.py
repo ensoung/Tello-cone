@@ -31,7 +31,7 @@ def TurningSign(frame, direction):  # direction : True-Left, False-right functio
     angle = 0  #results in a lot of spinning
     
     #center = (frame.shape[0]>>8 , frame.shape[1]-radius*2)
-    arc_end_x, arc_end_y = frame.shape[1]>>1, frame.shape[0]-radius*4 
+    arc_end_x, arc_end_y = frame.shape[1]>>1, frame.shape[0]-radius*4              
     #print(f'{arc_end_x}, {arc_end_y}, {arc_end_x}, {arc_end_y}')
     if direction: # left
         center = ( arc_end_x-radius , arc_end_y)
